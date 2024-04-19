@@ -1,0 +1,50 @@
+.searchBar {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .searchInput {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-right: none; /* Remove the right border to make it blend with the button */
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    outline: none;
+    padding-right: 40px;
+    }
+    
+    .searchButton {
+        position: absolute; /* Position the button absolutely inside the search bar */
+        right: 0; /* Align the button to the right inside the search bar */
+        top: 50%; /* Align vertically in the middle */
+        transform: translateY(-50%); /* Align vertically in the middle */
+        background-color: transparent; /* Remove the red background */
+        color: #333; /* Set a default color for the icon */
+        border: none; /* Remove border */
+        border-radius: 0; /* Remove border-radius */
+        padding: 0 12px; /* Adjust padding */
+        background: none; /* Ensures no background color */
+  border: none; /* Removes the border */
+  outline: none; /* Removes the outline */
+      }
+      
+    
+    /* You can add a hover effect for the button */
+    .searchButton:hover {
+        background-color: transparent; /* Keep the hover background transparent */
+      }
+    
+    /* Adjust styles for responsiveness and alignment */
+    @media (max-width: 768px) {
+    .searchBar {
+    width: 100%;
+    }
+    
+    .searchInput,
+    .searchButton {
+    width: 100%;
+    }
+    }
+  

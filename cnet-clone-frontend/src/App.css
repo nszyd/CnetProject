@@ -1,0 +1,33 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .mainContent {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr; /* Adjust the fractions to match the wireframe */
+    grid-gap: 20px;
+    margin: 20px;
+  }
+  
+  .leftColumn, .rightColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .centerColumn {
+    display: grid;
+    grid-template-rows: auto 1fr; /* Hero article takes the space it needs, the rest is distributed */
+    gap: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .mainContent {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  

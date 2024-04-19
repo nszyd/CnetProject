@@ -1,0 +1,40 @@
+.heroArticle {
+    display: block; /* make sure it's full width for the Hero section */
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .heroImage {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: cover; /* Adjust as needed for your layout */
+  }
+  
+  .heroContent {
+    margin-top: 10px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .excerpt {
+    font-size: 16px;
+    color: #666;
+    /* Add more styling as needed */
+  }
+  
+  /* Add responsiveness to the component */
+  @media (max-width: 768px) {
+    .heroArticle {
+      flex-direction: column;
+    }
+  
+    .title {
+      font-size: 20px;
+    }
+  }
+  

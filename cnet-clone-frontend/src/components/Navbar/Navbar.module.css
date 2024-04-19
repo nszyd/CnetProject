@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black; /* Replace with the actual color code of the CNET navbar */
+    color: #ff0000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    flex: 1;
+    text-align: left;
+    /* Add more styling as needed */
+  }
+  
+  .searchBar {
+    flex: 2; /* Allows the search bar to take twice as much space as the logo and login button */
+  }
+  
+  .navItem {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    /* Add more styling as needed */
+  }
+  
+  .loginButton {
+    background-color: #47eb41;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    text-transform: uppercase; /* Optional: Makes the text uppercase */
+    margin-left: 10px;
+    text-align: right; /* Aligns the login button to the right */
+  }
+  

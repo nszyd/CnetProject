@@ -1,0 +1,30 @@
+.articlePreview {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee; /* subtle separator */
+    padding-bottom: 20px;
+  }
+  
+  .articleImage {
+    width: 120px; /* Or set to match the design */
+    height: 90px; /* Or set to maintain aspect ratio */
+    border-radius: 4px;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  
+  .articleContent {
+    flex: 1;
+  }
+  
+  .title {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+  }
+  
+  .excerpt {
+    font-size: 14px;
+    color: #666;
+  }
+  
