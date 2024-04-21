@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black; /* Replace with the actual color code of the CNET navbar */
+    background-color: #121218; /* Replace with the actual color code of the CNET navbar */
     color: #ff0000;
     padding: 10px 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -28,8 +28,8 @@
   }
   
   .loginButton {
-    background-color: #47eb41;
-    color: #fff;
+    background-color: #b4fd8c;
+    color: #121218;
     border: none;
     padding: 10px 30px;
     cursor: pointer;

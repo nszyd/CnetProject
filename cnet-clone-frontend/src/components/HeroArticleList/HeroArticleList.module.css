@@ -1,0 +1,7 @@
+/* components/HeroArticleList/HeroArticleList.module.css */
+
+.heroArticleList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two hero articles side by side */
+    gap: 5px; /* Adjust the gap between hero articles */
+  }

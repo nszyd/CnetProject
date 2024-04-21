@@ -1,3 +1,5 @@
+// components/HeroArticle/HeroArticle.js
+
 import React from 'react';
 import styles from './HeroArticle.module.css';
 
@@ -8,7 +10,6 @@ const HeroArticle = ({ title, excerpt, imageUrl }) => {
       <div className={styles.heroContent}>
         <h1 className={styles.title}>{title}</h1>
         <p className={styles.excerpt}>{excerpt}</p>
-        {/* You can add more content here, such as the author's name and publication date */}
       </div>
     </div>
   );

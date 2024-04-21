@@ -1,0 +1,72 @@
+/*components/TagSection/TagSection.module.css */
+
+.tagSection {
+    margin-top: 50px;
+  }
+  
+  .tagTitle {
+    font-size: 24px;
+    color: #333;
+    padding-left: 15px; /* Align with the content above */
+    margin-bottom: 20px;
+  }
+  
+  .articleGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3-column grid for articles */
+    gap: 20px; /* Adjust the gap between articles */
+    padding: 0 15px; /* Align with the content above */
+  }
+  
+  /* Specific styles for ArticlePreview within the TagSection */
+  .articleGrid .articlePreview {
+    width: 100%;
+    &:before {
+      content: "";
+      display: block;
+      padding-top: 100%; /* Equal padding-top gives a square */
+    }
+  }
+  
+  .articleGrid .articleImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Make the image cover the square */
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .articleGrid .articlePreview:hover .articleImage {
+    transform: scale(1.1);
+  }
+  
+  .articleGrid .articleContent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    padding: 10px;
+  }
+  
+  .articleGrid .title {
+    font-size: 16px; /* Adjust font size to fit the square */
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .articleGrid .excerpt {
+    font-size: 12px; /* Adjust font size to fit the square */
+    color: #eee;
+  }

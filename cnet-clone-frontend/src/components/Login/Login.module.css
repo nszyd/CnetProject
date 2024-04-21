@@ -1,0 +1,49 @@
+/* components/SignUp/SignUp.module.css & components/Login/Login.module.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - var(--navbar-height) - var(--footer-height)); /* Adjust height considering navbar and footer */
+  }
+  
+  .box {
+    width: 300px; /* Adjust width as needed */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: white;
+    text-align: center;
+  }
+  
+  .box h2 {
+    margin-bottom: 20px;
+  }
+  
+  .box input {
+    width: calc(100% - 40px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .box .toggle {
+    cursor: pointer;
+    color: #0066cc;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  .box button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* You should have similar styles for Login.module.css */
+  

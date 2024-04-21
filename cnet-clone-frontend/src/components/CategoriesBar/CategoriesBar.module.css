@@ -1,0 +1,24 @@
+/* CategoriesBar.module.css */
+
+.categoriesBar {
+    display: flex;
+    justify-content: center; /* Centers the tags horizontally */
+    background-color: #121218;
+    padding: 10px 20px;
+    overflow-x: auto;
+}
+
+.tag {
+    margin-right: 20px;
+    padding: 5px 10px;
+    white-space: nowrap;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+.tag:last-child {
+    margin-right: 0;
+}
+
+/* Continue with the rest of your styling */

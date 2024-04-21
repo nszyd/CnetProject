@@ -1,0 +1,9 @@
+/* components/StandardArticleList/StandardArticleList.module.css */
+
+.standardArticleList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four smaller articles in one row */
+    gap: 5px; /* Adjust the gap between articles */
+    margin-top: 5px; /* Add space between hero and standard articles */
+  }
+  

@@ -1,0 +1,22 @@
+/* ArticleLayout.module.css */
+
+.articleLayout {
+    display: grid;
+    gap: 20px; /* Adjust the gap between grid items */
+    margin-bottom: 20px; /* Space before the footer or next section */
+  }
+  
+  .heroArticles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two hero articles side by side */
+    gap: 20px; /* Adjust the gap between hero articles */
+  }
+  
+  .otherArticles {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four smaller articles in one row */
+    gap: 20px; /* Adjust the gap between articles */
+  }
+  
+  /* Include media queries if needed for responsiveness */
+  

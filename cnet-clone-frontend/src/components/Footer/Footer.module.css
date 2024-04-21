@@ -1,56 +1,51 @@
+/* Footer.module.css */
+
 .footer {
     background-color: #333;
     color: #fff;
-    padding: 20px;
-    text-align: center;
+    padding: 10px; /* Reduce padding if needed */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   .linksSection {
     display: flex;
-    justify-content: space-around;
-    border-bottom: 1px solid #444;
-    padding-bottom: 20px;
+    align-items: center;
+    /* Remove the width and padding-bottom properties */
   }
   
   .linkColumn {
     display: flex;
-    flex-direction: column;
+    /* Change flex-direction to row instead of column */
+    flex-direction: row;
     align-items: center;
+    margin: 0 20px; /* Add space between link items */
   }
   
   .linkHeader {
-    font-size: 18px;
-    margin-bottom: 10px;
+    display: none; /* Hide the header to match the wireframe style */
   }
   
   .linkItem {
     color: #fff;
-    margin-bottom: 5px;
+    margin: 0 10px; /* Adjust spacing around each link */
     text-decoration: none;
   }
   
   .socialSection {
-    padding: 20px 0;
+    /* This can be removed if it's not necessary to separate social links into a different section */
   }
   
   .socialLink {
-    margin: 0 10px;
+    margin: 0 10px; /* Space out social links */
     color: #fff;
     text-decoration: none;
   }
   
   .copyRightSection {
     font-size: 12px;
-    margin-top: 10px;
-  }
-  
-  @media (max-width: 768px) {
-    .linksSection {
-      flex-direction: column;
-    }
-  
-    .linkColumn {
-      margin-bottom: 20px;
-    }
+    /* Remove the margin-top and width properties */
+    /* You can include this section in the linksSection if it should be inline with other links */
   }
   

@@ -1,33 +1,12 @@
 .App {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100vh; /* Full viewport height */
+    justify-content: space-between; /* Aligns children at the start and end */
+    margin: 0; /* Remove any default margin */
   }
   
   .mainContent {
-    flex: 1;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr; /* Adjust the fractions to match the wireframe */
-    grid-gap: 20px;
-    margin: 20px;
+    flex: 1; /* Takes up all available space */
+    margin: 30px 30px 10px 30px; /* Added zero bottom margin */
   }
-  
-  .leftColumn, .rightColumn {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  .centerColumn {
-    display: grid;
-    grid-template-rows: auto 1fr; /* Hero article takes the space it needs, the rest is distributed */
-    gap: 20px;
-  }
-  
-  @media (max-width: 768px) {
-    .mainContent {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  
